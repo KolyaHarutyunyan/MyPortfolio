@@ -1,0 +1,92 @@
+@mixin button-before-after-style($width, $height) {
+    content: "";
+    position: absolute;
+    width: $width;
+    height: $height;
+    left: 0;
+}
+
+.buttons-container {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 40px;
+    width: 60%;
+    padding: 0;
+    @media (max-width: $tablet) {
+        margin-top: 24px;
+    }
+    @media (max-width: $mobile) {
+        margin-top: 16px;
+    }
+    .btn {
+        position: relative;
+        width: 200px;
+        height: 80px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        cursor: pointer;
+        color: white;
+        transition: 0.2 ease;
+        overflow: hidden;
+        font-size: 18px;
+        @media (max-width: $desktop) {
+            width: 140px;
+            height: 60px;
+            font-size: 16px;
+        }
+        @media (max-width: $tablet) {
+            width: 100px;
+            height: 48px;
+            font-size: 14px;
+        }
+        &.pri {
+            border: 2px solid $color-sec;
+            &:hover {
+                border: none;
+                background-color: $color-sec-light;
+                &::before {
+                    @include button-before-after-style(65%, 100%);
+                    background-color: rgba(255, 255, 255, 0.274);
+                }
+                &::after {
+                    @include button-before-after-style(50%, 100%);
+                    background-color: rgba(255, 255, 255, 0.233);
+                }
+            }
+            &::before {
+                @include button-before-after-style(0%, 100%);
+                transition: 0.2s ease;
+            }
+            &::after {
+                @include button-before-after-style(0%, 100%);
+                transition: 0.4s ease
+            }
+        }
+        &.sec {
+            border: 2px solid $color-pri;
+            &:hover {
+                border: none;
+                background-color: $color-pri-light;
+                &::before {
+                    @include button-before-after-style(65%, 100%);
+                    background-color: rgba(255, 255, 255, 0.164);
+                }
+                &::after {
+                    @include button-before-after-style(50%, 100%);
+                    background-color: rgba(255, 255, 255, 0.233);
+                }
+            }
+            &::before {
+                @include button-before-after-style(0%, 100%);
+                transition: 0.2s ease;
+            }
+            &::after {
+                @include button-before-after-style(0%, 100%);
+                transition: 0.4s ease;
+            }
+        }
+    }
+}

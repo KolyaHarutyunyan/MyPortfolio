@@ -1,0 +1,118 @@
+@mixin bg-style($imgUrl) {
+    background-image: url($imgUrl);
+    background-position: center;
+}
+
+.skill-container {
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 330px;
+    margin-top: 20px;
+    overflow-x: hidden;
+    backdrop-filter: blur(20px);
+    @media (max-width: $tablet) {
+        min-height: 280px;
+    }
+    .skills {
+        .skill-text {
+            font-size: 20px;
+            top: 10px;
+        }
+        .skills-container {
+            position: absolute;
+            width: 90%;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            user-select: none;
+            display: flex;
+            justify-content: start;
+            align-items: center;
+            margin-top: 20px;
+            @media (max-width: $tablet) {
+                width: 96%;
+            }
+            @media (max-width: $mobile) {
+                margin-top: 16px;
+            }
+            .skill {
+                position: relative;
+                min-width: 250px;
+                height: 250px;
+                padding-bottom: 20px;
+                background-color: rgb(9, 6, 31);
+                border-radius: 20px;
+                &:not(:last-child) {
+                    margin-right: 20px;
+                    @media (max-width: $mobile) {
+                        margin-right: 16px;
+                    }
+                }
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: center;
+                animation: slider-wide 12s 2s infinite;
+                @media (max-width: 1440px) {
+                    animation: slider-middle 12s 2s infinite;
+                }
+                @media (max-width: 1200px) {
+                    animation: slider-narrow 12s 2s infinite;
+                }
+                @media (max-width: $tablet) {
+                    min-width: 180px;
+                    height: 180px;
+                    animation-play-state: paused;
+                }
+                @media (max-width: $mobile) {
+                    padding-bottom: 16px;
+                }
+                .content {
+                    width: 90%;
+                    height: 85%;
+                    border-radius: 15px;
+                    margin-top: 20px;
+                    background-repeat: no-repeat;
+                    background-size: contain;
+                    background-position: center;
+                    @media (max-width: $mobile) {
+                        margin-top: 16px;
+                    }
+                    &.time-mgmnt {
+                        @include bg-style("../../assets/images/skills/time-management.png");
+                    }
+                    &.detail-oriented {
+                        @include bg-style("../../assets/images/skills/detail-oriented.png");
+                    }
+                    &.goal-oriented {
+                        @include bg-style("../../assets/images/skills/goal-oriented.png");
+                    }
+                    &.creative-thinking {
+                        @include bg-style("../../assets/images/skills/creative-thinking.png");
+                    }
+                    &.logical-thinking {
+                        @include bg-style("../../assets/images/skills/logical-thinking.png");
+                    }
+                    &.teamwork {
+                        @include bg-style("../../assets/images/skills/teamwork.png");
+                    }
+                    &.fast-learning {
+                        @include bg-style("../../assets/images/skills/fast-learning.png");
+                    }
+                    &.flexibility {
+                        @include bg-style("../../assets/images/skills/flexibility.png");
+                    }
+                }
+                h1 {
+                    font-size: 20px;
+                    text-transform: uppercase;
+                    margin-top: 20px;
+                    @media (max-width: $tablet) {
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}

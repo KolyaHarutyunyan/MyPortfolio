@@ -1,0 +1,168 @@
+.experience-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: flex-start;
+    min-height: 20vh;
+    margin-top: 200px;
+    @media (max-width: $tablet) {
+        margin-top: 120px;
+    }    
+    @media (max-width: $mobile) {
+        margin-top: 140px;
+    }
+    .experience-txt {
+        font-size: 20px;
+        font-weight: 100;
+        top: 10px;
+        @media (max-width: $mobile) {
+            margin: 0 auto;
+        }
+    }
+    .experience {
+        position: relative;
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: 50px;
+        background-color: rgba(0, 0, 0, 0.014);
+        padding: 20px;
+        border-radius: 50px;
+        @media (max-width: $tablet) {
+            margin-top: 10px;   
+        }
+        @media (max-width: $mobile) {
+            flex-direction: row-reverse;
+            padding: 20px 0;
+        }
+        &.experience-1 {
+            .experience-img {
+                background-image: url("../../assets/images/experience/ithire.svg");
+                background-size: 220px 220px;
+                @media (max-width: $tablet) {
+                    background-size: 150px 150px;
+                }
+                @media (max-width: $mobile) {
+                    background-size: 80px 80px;
+                }
+            }
+        }
+        &.experience-2 {
+            .experience-img {
+                background-image: url("../../assets/images/experience/eachbase.svg");
+                background-size: 220px 80px;
+                @media (max-width: $tablet) {
+                    background-size: 180px 50px;
+                }
+                @media (max-width: $mobile) {
+                    background-size: 100px 30px;
+                }
+            }
+        }
+        &.experience-3 {
+            .experience-img {
+                background-image: url("../../assets/images/experience/solicy.png");
+                background-size: cover;
+            }
+        }
+        .experience-img {
+            width: 250px;
+            height: 250px;
+            border-radius: 50%;
+            background-repeat: no-repeat;
+            background-position: center;
+            border: 2px solid $color-sec-light;
+            @media (max-width: $tablet) {
+                width: 180px;
+                height: 180px;
+            }
+            @media (max-width: $mobile) {
+                width: 100px;
+                height: 100px;
+                position: absolute;
+                top: 0;
+                right: 0;
+            }
+        }
+        .experience-info {
+            margin-left: 50px;
+            font-family: "Open Sans", sans-serif;
+            max-width: 50%;
+            @media (max-width: $tablet) {
+                margin-left: 30px;
+            }
+            @media (max-width: $mobile) {
+                margin-left: 0;
+                max-width: 100%;
+            }
+            .name {
+                font-size: 40px;
+                font-weight: 500;
+                letter-spacing: 2px;
+                @media (max-width: $tablet) {
+                    font-size: 28px;
+                }
+                @media (max-width: $mobile) {
+                    font-size: 22px;
+                }
+            }
+            .position {
+                margin-top: 20px;
+                letter-spacing: 2px;
+                @media (max-width: $tablet) {
+                    margin-top: 12px;
+                }
+                p {
+                    font-size: 18;
+                    font-weight: 500;
+                    @media (max-width: $tablet) {
+                        font-size: 14px;
+                    }
+                }
+                span {
+                    font-size: 14px;
+                    font-weight: 400;
+                    display: block;
+                    @media (max-width: $tablet) {
+                        font-size: 12px;
+                    }
+                }
+            }
+            .about {
+                margin-top: 20px;
+                font-size: 17px;
+                font-weight: 100;
+                letter-spacing: 2px;
+                @media (max-width: $tablet) {
+                    margin-top: 16px;
+                    font-size: 14px;
+                }
+            }
+            a.visit {
+                background-color: $color-sec-light;
+                padding: 17px 35px;
+                font-size: 18px;
+                margin-top: 35px;
+                border-radius: 50px;
+                position: absolute;
+                transition: all 0.1s ease;
+                text-transform: capitalize;
+                &:hover {
+                    background-color: transparent;
+                    border: 2px solid $color-sec-light;
+                }
+                @media (max-width: $tablet) {
+                    margin-top: 24px;
+                    padding: 12px 24px;
+                    font-size: 16px;
+                }
+                @media (max-width: $mobile) {
+                    margin-top: 16px;
+                }
+            }
+        }
+    }
+}
