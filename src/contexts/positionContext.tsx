@@ -1,19 +1,21 @@
 import React, { ReactNode } from "react";
 
+type PositionType = "home" | "about" | "skills" | "interests" | "experience" | "blog" | "contact" | "footer";
+
 interface IPosition {
-    position: string;
-    handlePosition: (arg: string) => void;
+    position: PositionType;
+    handlePosition: (arg: PositionType) => void;
 }
 
 export const PositionContext = React.createContext<IPosition>({
-   position: "",
+   position: "home",
    handlePosition: () => {},
 });
 
 export const PositionContextProvider: React.FC<{ children: ReactNode }> = ({ children }) => {
-   const [position, setPosition] = React.useState("home");
+   const [position, setPosition] = React.useState<PositionType>("home");
 
-   const handlePosition = (value: string) => setPosition(value);
+   const handlePosition = (value: PositionType) => setPosition(value);
 
    const context: IPosition = { position, handlePosition };
    const { Provider } = PositionContext;

@@ -140,7 +140,6 @@
         max-width: 60%;
         width: 100%;
         margin-top: 50px;
-        text-align: center;
         @media (max-width: $tablet) {
             margin-top: 24px;
         }
@@ -178,6 +177,12 @@
                         margin-bottom: 8px;
                     }
                 }
+            }
+        }
+        .key-skills-box {
+            ul {
+                list-style: none;
+                padding: 0px 24px 16px;
             }
         }
     }
