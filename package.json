@@ -3,10 +3,13 @@
   "private": true,
   "version": "0.0.0",
   "main": "index.js",
+  "homepage": "https://kolyaharutyunyan.github.io/my-portfolio/",
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "react": "^18.2.0",
