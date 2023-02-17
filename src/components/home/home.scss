@@ -137,6 +137,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        text-align: center;
         max-width: 60%;
         width: 100%;
         margin-top: 50px;
@@ -182,7 +183,7 @@
         .key-skills-box {
             ul {
                 list-style: none;
-                padding: 0px 24px 16px;
+                margin-bottom: 16px;
             }
         }
     }

@@ -47,24 +47,22 @@ const Home = () => {
               <span>Key skills include:</span>
               <ul>
                 <li>
-                  <span>● Promoting and communicating new ideas</span>
+                  <span>Promoting and communicating new ideas</span>
                 </li>
                 <li>
-                  <li>
-                    <span>● Creating process improvements</span>
-                  </li>
-                  <li>
-                    <span>● Instituting new technologies</span>
-                  </li>
-                  <li>
-                    <span>● Writing maintainable cross-browser code</span>
-                  </li>
-                  <li>
-                    <span>● Estimating time and costs for projects</span>
-                  </li>
+                  <span>Creating process improvements</span>
                 </li>
                 <li>
-                  <span>● Ensuring code is scalable and responsive</span>
+                  <span>Instituting new technologies</span>
+                </li>
+                <li>
+                  <span>Writing maintainable cross-browser code</span>
+                </li>
+                <li>
+                  <span>Estimating time and costs for projects</span>
+                </li>
+                <li>
+                  <span>Ensuring code is scalable and responsive</span>
                 </li>
               </ul>
             </div>
