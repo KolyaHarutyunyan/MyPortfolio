@@ -16,11 +16,11 @@ const Qualifications = () => {
           <div className="qualification pro-skill">
             <div className="pro-skill-block">
               <div className="content react" />
-              <div className="content remix" />
+              <div className="content node" />
             </div>
             <div className="pro-skill-block">
-              <div className="content node" />
               <div className="content express" />
+              <div className="content remix" />
             </div>
           </div>
           <div className="qualification pro-skill">

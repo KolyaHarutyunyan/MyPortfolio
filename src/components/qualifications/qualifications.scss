@@ -100,14 +100,14 @@
                 &.react {
                     @include bg-style("../../assets/images/qualifications/react.png");
                 }
-                &.remix {
-                    @include bg-style("../../assets/images/qualifications/remix.png");
-                }
                 &.node {
                     @include bg-style("../../assets/images/qualifications/node.svg");
                 }
                 &.express {
                     @include bg-style("../../assets/images/qualifications/express.svg");
+                }
+                &.remix {
+                    @include bg-style("../../assets/images/qualifications/remix.png");
                 }
                 &.tailwind {
                     @include bg-style("../../assets/images/qualifications/tailwind.svg");
