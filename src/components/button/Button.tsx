@@ -1,9 +1,21 @@
 const Buttons = () => {
+    const handleCVDownload = () => {
+      fetch("cv.pdf").then((response) => {
+        response.blob().then((blob) => {
+          const fileURL = window.URL.createObjectURL(blob);
+          const alink = document.createElement("a");
+          alink.href = fileURL;
+          alink.download = "cv.pdf";
+          alink.click();
+        });
+      });
+    };
+
     return (
       <div className="container buttons-container">
-        <a href="../../../public/cv.pdf" download="cv.pdf" className="btn pri">
+        <button className="btn pri" onClick={handleCVDownload}>
           Get my CV
-        </a>
+        </button>
         <a href="#contact" className="btn sec">
           Get in Touch
         </a>
