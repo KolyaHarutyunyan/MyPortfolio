@@ -1,3 +1,6 @@
+import SnakeGameThumbnail from "../../assets/images/blog/snake-game.png";
+import QuizGameThumbnail from "../../assets/images/blog/quiz-game.png";
+
 export default [
   {
     websiteUrl: "https://croill.com/",
@@ -85,5 +88,17 @@ export default [
       "Jira,",
       "Slack",
     ],
+  },
+  {
+    websiteUrl: "https://quiz-game-khaki.vercel.app/",
+    thumbnailUrl: QuizGameThumbnail,
+    name: "Quiz Game",
+    stack: ["ReactJS,", "TypeScript,", "SASS/SCSS"],
+  },
+  {
+    websiteUrl: "https://snake-game-sable-tau.vercel.app/",
+    thumbnailUrl: SnakeGameThumbnail,
+    name: "Snake Game",
+    stack: ["ReactJS,", "TypeScript,", "SASS/SCSS"],
   },
 ];
