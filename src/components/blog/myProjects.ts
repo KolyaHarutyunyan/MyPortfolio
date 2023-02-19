@@ -99,6 +99,6 @@ export default [
     websiteUrl: "https://snake-game-sable-tau.vercel.app/",
     thumbnailUrl: SnakeGameThumbnail,
     name: "Snake Game",
-    stack: ["ReactJS,", "TypeScript,", "SASS/SCSS"],
+    stack: ["ReactJS,", "TypeScript,", "SASS/SCSS,", "Canvas"],
   },
 ];
