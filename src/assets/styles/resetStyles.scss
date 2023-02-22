@@ -75,12 +75,12 @@ video {
 
 body {
     font-family: "Inter", sans-serif;
-    // background-color: rgb(2, 2, 26);
-    background-image: url("../images/earth-from-space.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-attachment: fixed;
+    background-color: rgb(2, 2, 26);
+    // background-image: url("../images/earth-from-space.png");
+    // background-size: cover;
+    // background-repeat: no-repeat;
+    // background-position: center;
+    // background-attachment: fixed;
     min-height: 100vh;
     animation: move 1s linear infinite forwards;
 }

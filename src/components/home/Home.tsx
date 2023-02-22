@@ -37,7 +37,7 @@ const Home = () => {
         </a>
         <div className="about-me">
           <span className="title">About Me</span>
-          <p>
+          <div className="about-me__content">
             <span>
               Respected Frontend Developer with about 3 years of experience in
               collaborating with creative and development teams on the execution
@@ -75,7 +75,7 @@ const Home = () => {
               I'm interested in the best practices for organizing code, and I
               have a goal and desire to become an architect in my field.
             </span>
-          </p>
+          </div>
         </div>
         <Buttons />
       </div>

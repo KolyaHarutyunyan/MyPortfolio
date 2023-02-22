@@ -9,25 +9,23 @@ import Blog from "./components/blog/Blog";
 import Contact from "./components/contact/Contact";
 import Footer from "./components/footer/Footer";
 
-const App = () => {
-  return (
-    <div className="app">
-      <div className="app-circle-1" />
-      <div className="app-circle-2" />
-      <div className="app-circle-3" />
-      <div className="app-circle-4" />
-      <Header />
-      <Navbar />
-      <Home />
-      <About />
-      <Skills />
-      <Interests />
-      <Experience />
-      <Blog />
-      <Contact />
-      <Footer />
-    </div>
-  );
-};
+const App = () => (
+  <div className="app">
+    <div className="app-circle-1" />
+    <div className="app-circle-2" />
+    <div className="app-circle-3" />
+    <div className="app-circle-4" />
+    <Header />
+    <Navbar />
+    <Home />
+    <About />
+    <Skills />
+    <Interests />
+    <Experience />
+    <Blog />
+    <Contact />
+    <Footer />
+  </div>
+);
 
 export default App;

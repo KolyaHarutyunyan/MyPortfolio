@@ -3,7 +3,7 @@ const Header = () => {
         <div id="home" className="container header-container">
             <div>
                 <h3>
-                    Welcome to my space
+                    Welcome to My Space
                 </h3>
                 <p>
                     I<span>'</span>m

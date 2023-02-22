@@ -1,41 +1,41 @@
-// .app {
-//   width: 100%;
-//   .app-circle-1 {
-//     content: "";
-//     position: fixed;
-//     top: 0;
-//     left: 0;
-//     width: 200px;
-//     height: 200px;
-//     background-color: rgb(0, 255, 255);
-//     filter: blur(140px);
-//   }
-//   .app-circle-2 {
-//     content: "";
-//     position: fixed;
-//     top: 200px;
-//     left: 250px;
-//     width: 200px;
-//     height: 200px;
-//     background-color: rgb(183, 0, 255);
-//     filter: blur(140px);
-//   }
-//   .app-circle-3 {
-//     position: fixed;
-//     top: 0;
-//     right: 0;
-//     width: 200px;
-//     height: 200px;
-//     background-color: rgb(0, 255, 255);
-//     filter: blur(140px);
-//   }
-//   .app-circle-4 {
-//     position: fixed;
-//     bottom: 100px;
-//     right: 250px;
-//     width: 200px;
-//     height: 200px;
-//     background-color: rgb(183, 0, 255);
-//     filter: blur(150px);
-//   }
-// }
+.app {
+  width: 100%;
+  .app-circle-1 {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 255);
+    filter: blur(140px);
+  }
+  .app-circle-2 {
+    content: "";
+    position: fixed;
+    top: 200px;
+    left: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(183, 0, 255);
+    filter: blur(140px);
+  }
+  .app-circle-3 {
+    position: fixed;
+    top: 0;
+    right: 0;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(0, 255, 255);
+    filter: blur(140px);
+  }
+  .app-circle-4 {
+    position: fixed;
+    bottom: 100px;
+    right: 250px;
+    width: 200px;
+    height: 200px;
+    background-color: rgb(183, 0, 255);
+    filter: blur(150px);
+  }
+}
