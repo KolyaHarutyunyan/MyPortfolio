@@ -52,7 +52,7 @@ const Experience = () => {
           <h3 className="position">
             <p>Software Developer</p>
             <span>Armenia</span>
-            <span>2022 December - Present</span>
+            <span>2022 December - 2023 February (2 months)</span>
           </h3>
           <h4 className="about">
             Designing user interactions on websites, developing servers, and

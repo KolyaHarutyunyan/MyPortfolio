@@ -8,9 +8,9 @@ const Header = () => {
                 <p>
                     I<span>'</span>m
                 </p>
-                <h3>
+                <h1>
                     Kolya
-                </h3>
+                </h1>
                 <h2>Software Engineer</h2>
             </div>
         </div>
