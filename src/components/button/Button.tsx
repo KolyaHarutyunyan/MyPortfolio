@@ -1,11 +1,11 @@
 const Buttons = () => {
     const handleCVDownload = () => {
-      fetch("cv.pdf").then((response) => {
+      fetch("Kolya-s-CV.pdf").then((response) => {
         response.blob().then((blob) => {
           const fileURL = window.URL.createObjectURL(blob);
           const alink = document.createElement("a");
           alink.href = fileURL;
-          alink.download = "cv.pdf";
+          alink.download = "Kolya-s-CV.pdf";
           alink.click();
         });
       });
