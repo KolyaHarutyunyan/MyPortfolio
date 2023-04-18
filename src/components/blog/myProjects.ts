@@ -6,6 +6,7 @@ import PumaPayThumbnail from "../../assets/images/blog/pumapay.jpg";
 import SnakeGameThumbnail from "../../assets/images/blog/snake-game.png";
 import QuizGameThumbnail from "../../assets/images/blog/quiz-game.png";
 import RemixExpensesAppThumbnail from "../../assets/images/blog/remix-expenses-app.png";
+import MarplaBidManagerThumbnail from "../../assets/images/blog/marpla-bid-manager.png";
 
 export default [
   {
@@ -108,5 +109,22 @@ export default [
     thumbnailUrl: RemixExpensesAppThumbnail,
     name: "Remix Expenses App",
     stack: ["ReactJS,", "Remix,", "Prisma,", "MongoDB"],
+  },
+  {
+    websiteUrl: "https://marpla.ru/",
+    thumbnailUrl: MarplaBidManagerThumbnail,
+    name: "Marpla Bid Manager",
+    stack: [
+      "ReactJS,", 
+      "Redux Toolkit,", 
+      "TypeScript,", 
+      "Material-UI,", 
+      "Storybook,", 
+      "ClickUp,", 
+      "GitLab,", 
+      "Git,", 
+      "SASS/SCSS,", 
+      "RESTful API"
+    ],
   },
 ];

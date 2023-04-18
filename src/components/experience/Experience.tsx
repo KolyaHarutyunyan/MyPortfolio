@@ -63,6 +63,23 @@ const Experience = () => {
           </a>
         </div>
       </div>
+      <div className="experience experience-4">
+        <div className="experience-img" />
+        <div className="experience-info">
+          <h1 className="name">Marpla</h1>
+          <h3 className="position">
+            <p>Middle Frontend Developer</p>
+            <span>Russia</span>
+            <span>2023 March - Present (1 month)</span>
+          </h3>
+          <h4 className="about">
+            Development of system functionality and many more.
+          </h4>
+          <a href="https://marpla.ru/" target="_blank" className="visit">
+            visit
+          </a>
+        </div>
+      </div>
     </div>
   );
 };
