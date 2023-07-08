@@ -14,7 +14,7 @@ const Buttons = () => {
     return (
       <div className="container buttons-container">
         <button className="btn pri" onClick={handleCVDownload}>
-          Get my CV
+          Download CV
         </button>
         <a href="#contact" className="btn sec">
           Get in Touch

@@ -18,7 +18,7 @@ const Experience = () => {
           <h3 className="position">
             <p>Frontend Developer</p>
             <span>Armenia</span>
-            <span>2020 May - 2021 November (19 months)</span>
+            <span>2018 May - 2021 November</span>
           </h3>
           <h4 className="about">
             Build web applications on the client-side of development.
@@ -35,7 +35,7 @@ const Experience = () => {
           <h3 className="position">
             <p>Frontend Developer</p>
             <span>Armenia</span>
-            <span>2021 November - 2022 November (12 months)</span>
+            <span>2021 November - 2022 November</span>
           </h3>
           <h4 className="about">
             Build web applications on the client-side of development.
@@ -52,7 +52,7 @@ const Experience = () => {
           <h3 className="position">
             <p>Software Developer</p>
             <span>Armenia</span>
-            <span>2022 December - 2023 February (2 months)</span>
+            <span>2022 December - 2023 February</span>
           </h3>
           <h4 className="about">
             Designing user interactions on websites, developing servers, and
@@ -70,7 +70,7 @@ const Experience = () => {
           <h3 className="position">
             <p>Middle Frontend Developer</p>
             <span>Russia</span>
-            <span>2023 March - Present (1 month)</span>
+            <span>2023 March - Present</span>
           </h3>
           <h4 className="about">
             Development of system functionality and many more.

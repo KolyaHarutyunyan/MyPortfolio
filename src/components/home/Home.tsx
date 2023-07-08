@@ -39,7 +39,7 @@ const Home = () => {
           <span className="title">About Me</span>
           <div className="about-me__content">
             <span>
-              Respected Frontend Developer with about 3 years of experience in
+              Respected Frontend Developer with more than 5 years of experience in
               collaborating with creative and development teams on the execution
               of ideas and projects
             </span>
