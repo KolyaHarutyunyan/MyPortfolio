@@ -7,6 +7,7 @@ import SnakeGameThumbnail from "../../assets/images/blog/snake-game.png";
 import QuizGameThumbnail from "../../assets/images/blog/quiz-game.png";
 import RemixExpensesAppThumbnail from "../../assets/images/blog/remix-expenses-app.png";
 import MarplaBidManagerThumbnail from "../../assets/images/blog/marpla-bid-manager.png";
+import DigiTitansThumbnail from "../../assets/images/blog/digititans.jpeg";
 
 export default [
   {
@@ -109,6 +110,18 @@ export default [
     thumbnailUrl: RemixExpensesAppThumbnail,
     name: "Remix Expenses App",
     stack: ["ReactJS,", "Remix,", "Prisma,", "MongoDB"],
+  },
+  {
+    websiteUrl: "https://digititans.com/",
+    thumbnailUrl: DigiTitansThumbnail,
+    name: "DigiTitans Website",
+    stack: [
+      "ReactJS,", 
+      "TypeScript,", 
+      "TailwindCSS,", 
+      "Git,", 
+      "GitHub", 
+    ],
   },
   {
     websiteUrl: "https://marpla.ru/",
