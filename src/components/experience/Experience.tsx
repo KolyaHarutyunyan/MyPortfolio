@@ -68,12 +68,12 @@ const Experience = () => {
         <div className="experience-info">
           <h1 className="name">DigiTitans</h1>
           <h3 className="position">
-            <p>Co-Chief Executive Officer</p>
+            <p>Frontend Developer</p>
             <span></span>
             <span>2020 January - Present</span>
           </h3>
           <h4 className="about">
-          Managing and directing the company toward its primary goals and objectives.
+          Build web applications on the client-side of development.
           </h4>
           <a href="https://digititans.com/" target="_blank" className="visit">
             visit
