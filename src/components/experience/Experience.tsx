@@ -18,7 +18,7 @@ const Experience = () => {
           <h3 className="position">
             <p>Frontend Developer</p>
             <span>Armenia</span>
-            <span>2018 May - 2021 November</span>
+            <span>May 2018 - November 2021</span>
           </h3>
           <h4 className="about">
             Build web applications on the client-side of development.
@@ -35,7 +35,7 @@ const Experience = () => {
           <h3 className="position">
             <p>Frontend Developer</p>
             <span>Armenia</span>
-            <span>2021 November - 2022 November</span>
+            <span>November 2021 - November 2022</span>
           </h3>
           <h4 className="about">
             Build web applications on the client-side of development.
@@ -52,7 +52,7 @@ const Experience = () => {
           <h3 className="position">
             <p>Software Developer</p>
             <span>Armenia</span>
-            <span>2022 December - 2023 February</span>
+            <span>December 2022 - February 2023</span>
           </h3>
           <h4 className="about">
             Designing user interactions on websites, developing servers, and
@@ -63,19 +63,19 @@ const Experience = () => {
           </a>
         </div>
       </div>
-         <div className="experience experience-4">
+      <div className="experience experience-4">
         <div className="experience-img" />
         <div className="experience-info">
-          <h1 className="name">DigiTitans</h1>
+          <h1 className="name">Marpla</h1>
           <h3 className="position">
-            <p>Frontend Developer</p>
-            <span></span>
-            <span>2020 January - Present</span>
+            <p>Senior Frontend Developer</p>
+            <span>Russia</span>
+            <span>March 2023 - August 2023</span>
           </h3>
           <h4 className="about">
-          Build web applications on the client-side of development.
+            Development of system functionality and many more.
           </h4>
-          <a href="https://digititans.com/" target="_blank" className="visit">
+          <a href="https://marpla.ru/" target="_blank" className="visit">
             visit
           </a>
         </div>
@@ -83,16 +83,20 @@ const Experience = () => {
       <div className="experience experience-5">
         <div className="experience-img" />
         <div className="experience-info">
-          <h1 className="name">Marpla</h1>
+          <h1 className="name">TripShock</h1>
           <h3 className="position">
-            <p>Senior Frontend Developer</p>
-            <span>Russia</span>
-            <span>2023 March - Present</span>
+            <p>Frontend Developer</p>
+            <span></span>
+            <span>August 2023 - Present</span>
           </h3>
           <h4 className="about">
-            Development of system functionality and many more.
+            Build web applications on the client-side of development.
           </h4>
-          <a href="https://marpla.ru/" target="_blank" className="visit">
+          <a
+            href="https://www.tripshock.com/"
+            target="_blank"
+            className="visit"
+          >
             visit
           </a>
         </div>

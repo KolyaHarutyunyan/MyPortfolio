@@ -8,6 +8,7 @@ import QuizGameThumbnail from "../../assets/images/blog/quiz-game.png";
 import RemixExpensesAppThumbnail from "../../assets/images/blog/remix-expenses-app.png";
 import MarplaBidManagerThumbnail from "../../assets/images/blog/marpla-bid-manager.png";
 import DigiTitansThumbnail from "../../assets/images/blog/digititans.jpeg";
+import WaveRezThumbnail from "../../assets/images/blog/waverez.png";
 
 export default [
   {
@@ -112,32 +113,32 @@ export default [
     stack: ["ReactJS,", "Remix,", "Prisma,", "MongoDB"],
   },
   {
-    websiteUrl: "https://digititans.com/",
-    thumbnailUrl: DigiTitansThumbnail,
-    name: "DigiTitans Website",
-    stack: [
-      "ReactJS,", 
-      "TypeScript,", 
-      "TailwindCSS,", 
-      "Git,", 
-      "GitHub", 
-    ],
-  },
-  {
     websiteUrl: "https://marpla.ru/",
     thumbnailUrl: MarplaBidManagerThumbnail,
     name: "Marpla Bid Manager",
     stack: [
-      "ReactJS,", 
-      "Redux Toolkit,", 
-      "TypeScript,", 
-      "Material-UI,", 
-      "Storybook,", 
-      "ClickUp,", 
-      "GitLab,", 
-      "Git,", 
-      "SASS/SCSS,", 
-      "RESTful API"
+      "ReactJS,",
+      "Redux Toolkit,",
+      "TypeScript,",
+      "Material-UI,",
+      "Storybook,",
+      "ClickUp,",
+      "GitLab,",
+      "Git,",
+      "SASS/SCSS,",
+      "RESTful API",
     ],
+  },
+  {
+    websiteUrl: "https://digititans.com/",
+    thumbnailUrl: DigiTitansThumbnail,
+    name: "DigiTitans Website",
+    stack: ["ReactJS,", "TypeScript,", "TailwindCSS,", "Git,", "GitHub"],
+  },
+  {
+    websiteUrl: "https://www.waverez.com/",
+    thumbnailUrl: WaveRezThumbnail,
+    name: "WaveRez",
+    stack: ["NextJS,", "TypeScript,", "TailwindCSS,", "Zustand"],
   },
 ];
