@@ -1,3 +1,5 @@
+import NetflixCloneThumbnail from "../../assets/images/blog/netflix-clone.png";
+import DropboxCloneThumbnail from "../../assets/images/blog/dropbox-clone.png";
 import CroillThumbnail from "../../assets/images/blog/croill.png";
 import SocalAirSystemsThumbnail from "../../assets/images/blog/socal-air-systems.jpg";
 import MenumangoThumbnail from "../../assets/images/blog/menumango.webp";
@@ -11,6 +13,36 @@ import DigiTitansThumbnail from "../../assets/images/blog/digititans.jpeg";
 import WaveRezThumbnail from "../../assets/images/blog/waverez.png";
 
 export default [
+  {
+    websiteUrl: "https://my-second-clone.firebaseapp.com/",
+    thumbnailUrl: NetflixCloneThumbnail,
+    name: "Netflix Clone",
+    stack: [
+      "ReactJS,",
+      "Redux Toolkit,",
+      "BEM,",
+      "Stripe Checkout & Webhooks,",
+      "Firebase,",
+      "Google Auth",
+    ],
+  },
+  {
+    websiteUrl: "https://dropbox-clone-kolyaharutyunyan.vercel.app/",
+    thumbnailUrl: DropboxCloneThumbnail,
+    name: "Dropbox Clone",
+    stack: [
+      "NextJS14,",
+      "TypeScript,",
+      "TailwindCSS,",
+      "Shadcn,",
+      "Clerk,",
+      "CRUD,",
+      "Zustand,",
+      "Firebase,",
+      "Drag/Drop,",
+      "Vercel",
+    ],
+  },
   {
     websiteUrl: "https://croill.com/",
     thumbnailUrl: CroillThumbnail,
